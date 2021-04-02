@@ -37,16 +37,46 @@ tags:
 
 #### 动静分离
 
+  &#12288;&#12288;为了加快网站的解析速度，可以把动态页面和静态页面由不同的服务器来解析，加快解析速度。来降低原来单个服务器的压力
+
 ### 安装、常用命令和配置文件
+
+#### nginx操作的常用命令
+
+  1. 使用nginx操作命令前提条件：必须进入nginx的目录中/user/local/nginx/sbin `cd /user/local/nginx/sbin`
+  2. 查看nginx的版本号 `./nginx -v`
+  3. 启动nginx `./nginx`
+  4. 关闭nginx `./nginx -s stop`
+  5. 重新加载nginx `./nginx -s reload`
+  6. 查看进程 `ps -ef | grep nginx`
+  7. 查看文件 `ls`
+  8. 打开文件 `vi + 文件名` 示例 vi nginx.conf
+
+
+## 配置文件
+
+  1.nginx配置文件位置 /user/local/nginx/conf/nginf.conf  `cd /user/local/nginx  => cd conf`
 
 ## 配置实例
 
+ 未学
+
 ### 配置反向代理
+
+ 未学
 
 ### 配置负载均衡
 
+ 未学
+
 ### 配置动静分离
+
+ 未学
 
 ### 配置高可用集群
 
+ 未学
+
 ## Nginx原理
+
+ 未学

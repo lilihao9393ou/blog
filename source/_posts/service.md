@@ -52,7 +52,6 @@ tags:
   7. 查看文件 `ls`
   8. 打开文件 `vi + 文件名` 示例 vi nginx.conf
 
-
 ## 配置文件
 
   1.nginx配置文件位置 /user/local/nginx/conf/nginf.conf  `cd /user/local/nginx  => cd conf`
